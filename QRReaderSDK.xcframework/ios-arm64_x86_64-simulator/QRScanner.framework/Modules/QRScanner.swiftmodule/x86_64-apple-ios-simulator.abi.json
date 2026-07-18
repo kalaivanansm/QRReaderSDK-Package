@@ -1,0 +1,100 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "QRScanner",
+    "printedName": "QRScanner",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyLogger",
+        "printedName": "MyLogger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyLogger",
+                "printedName": "QRScanner.MyLogger",
+                "usr": "s:9QRScanner8MyLoggerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9QRScanner8MyLoggerCACycfc",
+            "mangledName": "$s9QRScanner8MyLoggerCACycfc",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "logMessage",
+            "printedName": "logMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner8MyLoggerC10logMessageyySSF",
+            "mangledName": "$s9QRScanner8MyLoggerC10logMessageyySSF",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9QRScanner8MyLoggerC",
+        "mangledName": "$s9QRScanner8MyLoggerC",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
