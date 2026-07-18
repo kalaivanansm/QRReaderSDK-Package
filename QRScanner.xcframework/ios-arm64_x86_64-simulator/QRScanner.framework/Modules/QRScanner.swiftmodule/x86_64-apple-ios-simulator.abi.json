@@ -1,0 +1,4321 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "QRScanner",
+    "printedName": "QRScanner",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QRScannerSDK",
+        "printedName": "QRScannerSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A3SDKV7versionSSvpZ",
+            "mangledName": "$s9QRScanner0A3SDKV7versionSSvpZ",
+            "moduleName": "QRScanner",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A3SDKV7versionSSvgZ",
+                "mangledName": "$s9QRScanner0A3SDKV7versionSSvgZ",
+                "moduleName": "QRScanner",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9QRScanner0A3SDKV",
+        "mangledName": "$s9QRScanner0A3SDKV",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QRScannerError",
+        "printedName": "QRScannerError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cameraPermissionDenied",
+            "printedName": "cameraPermissionDenied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QRScanner.QRScannerError.Type) -> QRScanner.QRScannerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QRScannerError",
+                    "printedName": "QRScanner.QRScannerError",
+                    "usr": "s:9QRScanner0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QRScanner.QRScannerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRScannerError",
+                        "printedName": "QRScanner.QRScannerError",
+                        "usr": "s:9QRScanner0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QRScanner0A5ErrorO22cameraPermissionDeniedyA2CmF",
+            "mangledName": "$s9QRScanner0A5ErrorO22cameraPermissionDeniedyA2CmF",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraSourceUnavailable",
+            "printedName": "cameraSourceUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QRScanner.QRScannerError.Type) -> QRScanner.QRScannerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QRScannerError",
+                    "printedName": "QRScanner.QRScannerError",
+                    "usr": "s:9QRScanner0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QRScanner.QRScannerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRScannerError",
+                        "printedName": "QRScanner.QRScannerError",
+                        "usr": "s:9QRScanner0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QRScanner0A5ErrorO23cameraSourceUnavailableyA2CmF",
+            "mangledName": "$s9QRScanner0A5ErrorO23cameraSourceUnavailableyA2CmF",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionConfigurationFailed",
+            "printedName": "sessionConfigurationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QRScanner.QRScannerError.Type) -> QRScanner.QRScannerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QRScannerError",
+                    "printedName": "QRScanner.QRScannerError",
+                    "usr": "s:9QRScanner0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QRScanner.QRScannerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRScannerError",
+                        "printedName": "QRScanner.QRScannerError",
+                        "usr": "s:9QRScanner0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QRScanner0A5ErrorO26sessionConfigurationFailedyA2CmF",
+            "mangledName": "$s9QRScanner0A5ErrorO26sessionConfigurationFailedyA2CmF",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9QRScanner0A5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9QRScanner0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "QRScanner",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerError",
+                "printedName": "QRScanner.QRScannerError",
+                "usr": "s:9QRScanner0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerError",
+                "printedName": "QRScanner.QRScannerError",
+                "usr": "s:9QRScanner0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QRScanner0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "QRScanner",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A5ErrorO9hashValueSivp",
+            "mangledName": "$s9QRScanner0A5ErrorO9hashValueSivp",
+            "moduleName": "QRScanner",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A5ErrorO9hashValueSivg",
+                "mangledName": "$s9QRScanner0A5ErrorO9hashValueSivg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9QRScanner0A5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "QRScanner",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9QRScanner0A5ErrorO",
+        "mangledName": "$s9QRScanner0A5ErrorO",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QRScannerOverlayView",
+        "printedName": "QRScannerOverlayView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "scanRectSize",
+            "printedName": "scanRectSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A11OverlayViewC12scanRectSizeSo6CGSizeVvp",
+            "mangledName": "$s9QRScanner0A11OverlayViewC12scanRectSizeSo6CGSizeVvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC12scanRectSizeSo6CGSizeVvg",
+                "mangledName": "$s9QRScanner0A11OverlayViewC12scanRectSizeSo6CGSizeVvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC12scanRectSizeSo6CGSizeVvs",
+                "mangledName": "$s9QRScanner0A11OverlayViewC12scanRectSizeSo6CGSizeVvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC12scanRectSizeSo6CGSizeVvM",
+                "mangledName": "$s9QRScanner0A11OverlayViewC12scanRectSizeSo6CGSizeVvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerColor",
+            "printedName": "cornerColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A11OverlayViewC11cornerColorSo7UIColorCvp",
+            "mangledName": "$s9QRScanner0A11OverlayViewC11cornerColorSo7UIColorCvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC11cornerColorSo7UIColorCvg",
+                "mangledName": "$s9QRScanner0A11OverlayViewC11cornerColorSo7UIColorCvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC11cornerColorSo7UIColorCvs",
+                "mangledName": "$s9QRScanner0A11OverlayViewC11cornerColorSo7UIColorCvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC11cornerColorSo7UIColorCvM",
+                "mangledName": "$s9QRScanner0A11OverlayViewC11cornerColorSo7UIColorCvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerLength",
+            "printedName": "cornerLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A11OverlayViewC12cornerLength14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s9QRScanner0A11OverlayViewC12cornerLength12CoreGraphics7CGFloatVvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC12cornerLength14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s9QRScanner0A11OverlayViewC12cornerLength12CoreGraphics7CGFloatVvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC12cornerLength14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s9QRScanner0A11OverlayViewC12cornerLength12CoreGraphics7CGFloatVvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC12cornerLength14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s9QRScanner0A11OverlayViewC12cornerLength12CoreGraphics7CGFloatVvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerLineWidth",
+            "printedName": "cornerLineWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A11OverlayViewC15cornerLineWidth14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s9QRScanner0A11OverlayViewC15cornerLineWidth12CoreGraphics7CGFloatVvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC15cornerLineWidth14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s9QRScanner0A11OverlayViewC15cornerLineWidth12CoreGraphics7CGFloatVvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC15cornerLineWidth14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s9QRScanner0A11OverlayViewC15cornerLineWidth12CoreGraphics7CGFloatVvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC15cornerLineWidth14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s9QRScanner0A11OverlayViewC15cornerLineWidth12CoreGraphics7CGFloatVvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "laserColor",
+            "printedName": "laserColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A11OverlayViewC10laserColorSo7UIColorCvp",
+            "mangledName": "$s9QRScanner0A11OverlayViewC10laserColorSo7UIColorCvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC10laserColorSo7UIColorCvg",
+                "mangledName": "$s9QRScanner0A11OverlayViewC10laserColorSo7UIColorCvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC10laserColorSo7UIColorCvs",
+                "mangledName": "$s9QRScanner0A11OverlayViewC10laserColorSo7UIColorCvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC10laserColorSo7UIColorCvM",
+                "mangledName": "$s9QRScanner0A11OverlayViewC10laserColorSo7UIColorCvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLaserAnimationEnabled",
+            "printedName": "isLaserAnimationEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A11OverlayViewC23isLaserAnimationEnabledSbvp",
+            "mangledName": "$s9QRScanner0A11OverlayViewC23isLaserAnimationEnabledSbvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC23isLaserAnimationEnabledSbvg",
+                "mangledName": "$s9QRScanner0A11OverlayViewC23isLaserAnimationEnabledSbvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC23isLaserAnimationEnabledSbvs",
+                "mangledName": "$s9QRScanner0A11OverlayViewC23isLaserAnimationEnabledSbvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC23isLaserAnimationEnabledSbvM",
+                "mangledName": "$s9QRScanner0A11OverlayViewC23isLaserAnimationEnabledSbvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scanRect",
+            "printedName": "scanRect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A11OverlayViewC8scanRectSo6CGRectVvp",
+            "mangledName": "$s9QRScanner0A11OverlayViewC8scanRectSo6CGRectVvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A11OverlayViewC8scanRectSo6CGRectVvg",
+                "mangledName": "$s9QRScanner0A11OverlayViewC8scanRectSo6CGRectVvg",
+                "moduleName": "QRScanner",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerOverlayView",
+                "printedName": "QRScanner.QRScannerOverlayView",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerOverlayView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerOverlayView(im)initWithFrame:",
+            "mangledName": "$s9QRScanner0A11OverlayViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QRScanner.QRScannerOverlayView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QRScannerOverlayView",
+                    "printedName": "QRScanner.QRScannerOverlayView",
+                    "usr": "c:@M@QRScanner@objc(cs)QRScannerOverlayView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerOverlayView(im)initWithCoder:",
+            "mangledName": "$s9QRScanner0A11OverlayViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerOverlayView(im)layoutSubviews",
+            "mangledName": "$s9QRScanner0A11OverlayViewC14layoutSubviewsyyF",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLaserAnimation",
+            "printedName": "startLaserAnimation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A11OverlayViewC19startLaserAnimationyyF",
+            "mangledName": "$s9QRScanner0A11OverlayViewC19startLaserAnimationyyF",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopLaserAnimation",
+            "printedName": "stopLaserAnimation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A11OverlayViewC18stopLaserAnimationyyF",
+            "mangledName": "$s9QRScanner0A11OverlayViewC18stopLaserAnimationyyF",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QRScanner@objc(cs)QRScannerOverlayView",
+        "mangledName": "$s9QRScanner0A11OverlayViewC",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "QRScanner"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QRScannerViewControllerDelegate",
+        "printedName": "QRScannerViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "qrScanner",
+            "printedName": "qrScanner(_:didScanResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerViewController",
+                "printedName": "QRScanner.QRScannerViewController",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A22ViewControllerDelegateP9qrScanner_13didScanResultyAA0abC0C_SStF",
+            "mangledName": "$s9QRScanner0A22ViewControllerDelegateP9qrScanner_13didScanResultyAA0abC0C_SStF",
+            "moduleName": "QRScanner",
+            "genericSig": "<τ_0_0 where τ_0_0 : QRScanner.QRScannerViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : QRScanner.QRScannerViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "qrScanner",
+            "printedName": "qrScanner(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerViewController",
+                "printedName": "QRScanner.QRScannerViewController",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerError",
+                "printedName": "QRScanner.QRScannerError",
+                "usr": "s:9QRScanner0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A22ViewControllerDelegateP9qrScanner_16didFailWithErroryAA0abC0C_AA0aJ0OtF",
+            "mangledName": "$s9QRScanner0A22ViewControllerDelegateP9qrScanner_16didFailWithErroryAA0abC0C_AA0aJ0OtF",
+            "moduleName": "QRScanner",
+            "genericSig": "<τ_0_0 where τ_0_0 : QRScanner.QRScannerViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : QRScanner.QRScannerViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "qrScannerDidCancel",
+            "printedName": "qrScannerDidCancel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerViewController",
+                "printedName": "QRScanner.QRScannerViewController",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A22ViewControllerDelegateP18qrScannerDidCancelyyAA0abC0CF",
+            "mangledName": "$s9QRScanner0A22ViewControllerDelegateP18qrScannerDidCancelyyAA0abC0CF",
+            "moduleName": "QRScanner",
+            "genericSig": "<τ_0_0 where τ_0_0 : QRScanner.QRScannerViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : QRScanner.QRScannerViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9QRScanner0A22ViewControllerDelegateP",
+        "mangledName": "$s9QRScanner0A22ViewControllerDelegateP",
+        "moduleName": "QRScanner",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QRScannerViewController",
+        "printedName": "QRScannerViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "instantiate",
+            "printedName": "instantiate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerViewController",
+                "printedName": "QRScanner.QRScannerViewController",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A14ViewControllerC11instantiateACyFZ",
+            "mangledName": "$s9QRScanner0A14ViewControllerC11instantiateACyFZ",
+            "moduleName": "QRScanner",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "overlayView",
+            "printedName": "overlayView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "QRScanner.QRScannerOverlayView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(py)overlayView",
+            "mangledName": "$s9QRScanner0A14ViewControllerC07overlayB0AA0a7OverlayB0CSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "QRScanner.QRScannerOverlayView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRScannerOverlayView",
+                        "printedName": "QRScanner.QRScannerOverlayView",
+                        "usr": "c:@M@QRScanner@objc(cs)QRScannerOverlayView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)overlayView",
+                "mangledName": "$s9QRScanner0A14ViewControllerC07overlayB0AA0a7OverlayB0CSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "QRScanner.QRScannerOverlayView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRScannerOverlayView",
+                        "printedName": "QRScanner.QRScannerOverlayView",
+                        "usr": "c:@M@QRScanner@objc(cs)QRScannerOverlayView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)setOverlayView:",
+                "mangledName": "$s9QRScanner0A14ViewControllerC07overlayB0AA0a7OverlayB0CSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC07overlayB0AA0a7OverlayB0CSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC07overlayB0AA0a7OverlayB0CSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeButtonContainer",
+            "printedName": "closeButtonContainer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIVisualEffectView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(py)closeButtonContainer",
+            "mangledName": "$s9QRScanner0A14ViewControllerC20closeButtonContainerSo014UIVisualEffectB0CSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIVisualEffectView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIVisualEffectView",
+                        "printedName": "UIKit.UIVisualEffectView",
+                        "usr": "c:objc(cs)UIVisualEffectView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)closeButtonContainer",
+                "mangledName": "$s9QRScanner0A14ViewControllerC20closeButtonContainerSo014UIVisualEffectB0CSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIVisualEffectView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIVisualEffectView",
+                        "printedName": "UIKit.UIVisualEffectView",
+                        "usr": "c:objc(cs)UIVisualEffectView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)setCloseButtonContainer:",
+                "mangledName": "$s9QRScanner0A14ViewControllerC20closeButtonContainerSo014UIVisualEffectB0CSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC20closeButtonContainerSo014UIVisualEffectB0CSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC20closeButtonContainerSo014UIVisualEffectB0CSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeButton",
+            "printedName": "closeButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIButton?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(py)closeButton",
+            "mangledName": "$s9QRScanner0A14ViewControllerC11closeButtonSo8UIButtonCSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIButton?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIButton",
+                        "printedName": "UIKit.UIButton",
+                        "usr": "c:objc(cs)UIButton"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)closeButton",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11closeButtonSo8UIButtonCSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIButton?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIButton",
+                        "printedName": "UIKit.UIButton",
+                        "usr": "c:objc(cs)UIButton"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)setCloseButton:",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11closeButtonSo8UIButtonCSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC11closeButtonSo8UIButtonCSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11closeButtonSo8UIButtonCSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "torchButtonContainer",
+            "printedName": "torchButtonContainer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIVisualEffectView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(py)torchButtonContainer",
+            "mangledName": "$s9QRScanner0A14ViewControllerC20torchButtonContainerSo014UIVisualEffectB0CSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIVisualEffectView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIVisualEffectView",
+                        "printedName": "UIKit.UIVisualEffectView",
+                        "usr": "c:objc(cs)UIVisualEffectView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)torchButtonContainer",
+                "mangledName": "$s9QRScanner0A14ViewControllerC20torchButtonContainerSo014UIVisualEffectB0CSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIVisualEffectView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIVisualEffectView",
+                        "printedName": "UIKit.UIVisualEffectView",
+                        "usr": "c:objc(cs)UIVisualEffectView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)setTorchButtonContainer:",
+                "mangledName": "$s9QRScanner0A14ViewControllerC20torchButtonContainerSo014UIVisualEffectB0CSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC20torchButtonContainerSo014UIVisualEffectB0CSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC20torchButtonContainerSo014UIVisualEffectB0CSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "torchButton",
+            "printedName": "torchButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIButton?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(py)torchButton",
+            "mangledName": "$s9QRScanner0A14ViewControllerC11torchButtonSo8UIButtonCSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIButton?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIButton",
+                        "printedName": "UIKit.UIButton",
+                        "usr": "c:objc(cs)UIButton"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)torchButton",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11torchButtonSo8UIButtonCSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIButton?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIButton",
+                        "printedName": "UIKit.UIButton",
+                        "usr": "c:objc(cs)UIButton"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)setTorchButton:",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11torchButtonSo8UIButtonCSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC11torchButtonSo8UIButtonCSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11torchButtonSo8UIButtonCSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionLabel",
+            "printedName": "instructionLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UILabel?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(py)instructionLabel",
+            "mangledName": "$s9QRScanner0A14ViewControllerC16instructionLabelSo7UILabelCSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)instructionLabel",
+                "mangledName": "$s9QRScanner0A14ViewControllerC16instructionLabelSo7UILabelCSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)setInstructionLabel:",
+                "mangledName": "$s9QRScanner0A14ViewControllerC16instructionLabelSo7UILabelCSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC16instructionLabelSo7UILabelCSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC16instructionLabelSo7UILabelCSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any QRScanner.QRScannerViewControllerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC8delegateAA0abC8Delegate_pSgvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC8delegateAA0abC8Delegate_pSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QRScanner.QRScannerViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRScannerViewControllerDelegate",
+                        "printedName": "any QRScanner.QRScannerViewControllerDelegate",
+                        "usr": "s:9QRScanner0A22ViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC8delegateAA0abC8Delegate_pSgvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC8delegateAA0abC8Delegate_pSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QRScanner.QRScannerViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRScannerViewControllerDelegate",
+                        "printedName": "any QRScanner.QRScannerViewControllerDelegate",
+                        "usr": "s:9QRScanner0A22ViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC8delegateAA0abC8Delegate_pSgvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC8delegateAA0abC8Delegate_pSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC8delegateAA0abC8Delegate_pSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC8delegateAA0abC8Delegate_pSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onScanSuccess",
+            "printedName": "onScanSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC13onScanSuccessySScSgvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC13onScanSuccessySScSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC13onScanSuccessySScSgvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC13onScanSuccessySScSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC13onScanSuccessySScSgvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC13onScanSuccessySScSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC13onScanSuccessySScSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC13onScanSuccessySScSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onScanFailure",
+            "printedName": "onScanFailure",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((QRScanner.QRScannerError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QRScanner.QRScannerError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QRScannerError",
+                        "printedName": "QRScanner.QRScannerError",
+                        "usr": "s:9QRScanner0A5ErrorO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC13onScanFailureyAA0A5ErrorOcSgvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC13onScanFailureyAA0A5ErrorOcSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((QRScanner.QRScannerError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(QRScanner.QRScannerError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "QRScannerError",
+                            "printedName": "QRScanner.QRScannerError",
+                            "usr": "s:9QRScanner0A5ErrorO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC13onScanFailureyAA0A5ErrorOcSgvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC13onScanFailureyAA0A5ErrorOcSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((QRScanner.QRScannerError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(QRScanner.QRScannerError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "QRScannerError",
+                            "printedName": "QRScanner.QRScannerError",
+                            "usr": "s:9QRScanner0A5ErrorO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC13onScanFailureyAA0A5ErrorOcSgvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC13onScanFailureyAA0A5ErrorOcSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC13onScanFailureyAA0A5ErrorOcSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC13onScanFailureyAA0A5ErrorOcSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onCancel",
+            "printedName": "onCancel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC8onCancelyycSgvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC8onCancelyycSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC8onCancelyycSgvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC8onCancelyycSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC8onCancelyycSgvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC8onCancelyycSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC8onCancelyycSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC8onCancelyycSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scanRectSize",
+            "printedName": "scanRectSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC12scanRectSizeSo6CGSizeVvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC12scanRectSizeSo6CGSizeVvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC12scanRectSizeSo6CGSizeVvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC12scanRectSizeSo6CGSizeVvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC12scanRectSizeSo6CGSizeVvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC12scanRectSizeSo6CGSizeVvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC12scanRectSizeSo6CGSizeVvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC12scanRectSizeSo6CGSizeVvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerColor",
+            "printedName": "cornerColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC11cornerColorSo7UIColorCvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC11cornerColorSo7UIColorCvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC11cornerColorSo7UIColorCvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11cornerColorSo7UIColorCvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC11cornerColorSo7UIColorCvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11cornerColorSo7UIColorCvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC11cornerColorSo7UIColorCvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC11cornerColorSo7UIColorCvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerLength",
+            "printedName": "cornerLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC12cornerLength14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC12cornerLength12CoreGraphics7CGFloatVvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC12cornerLength14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC12cornerLength12CoreGraphics7CGFloatVvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC12cornerLength14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC12cornerLength12CoreGraphics7CGFloatVvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC12cornerLength14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC12cornerLength12CoreGraphics7CGFloatVvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerLineWidth",
+            "printedName": "cornerLineWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC15cornerLineWidth14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC15cornerLineWidth12CoreGraphics7CGFloatVvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15cornerLineWidth14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15cornerLineWidth12CoreGraphics7CGFloatVvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15cornerLineWidth14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15cornerLineWidth12CoreGraphics7CGFloatVvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15cornerLineWidth14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15cornerLineWidth12CoreGraphics7CGFloatVvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "laserColor",
+            "printedName": "laserColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC10laserColorSo7UIColorCvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC10laserColorSo7UIColorCvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC10laserColorSo7UIColorCvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC10laserColorSo7UIColorCvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC10laserColorSo7UIColorCvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC10laserColorSo7UIColorCvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC10laserColorSo7UIColorCvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC10laserColorSo7UIColorCvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLaserAnimationEnabled",
+            "printedName": "isLaserAnimationEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC23isLaserAnimationEnabledSbvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC23isLaserAnimationEnabledSbvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC23isLaserAnimationEnabledSbvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC23isLaserAnimationEnabledSbvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC23isLaserAnimationEnabledSbvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC23isLaserAnimationEnabledSbvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC23isLaserAnimationEnabledSbvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC23isLaserAnimationEnabledSbvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "feedbackGeneratorStyle",
+            "printedName": "feedbackGeneratorStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImpactFeedbackGenerator.FeedbackStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackStyle",
+                    "printedName": "UIKit.UIImpactFeedbackGenerator.FeedbackStyle",
+                    "usr": "c:@E@UIImpactFeedbackStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC22feedbackGeneratorStyleSo016UIImpactFeedbackF0VSgvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC22feedbackGeneratorStyleSo016UIImpactFeedbackF0VSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImpactFeedbackGenerator.FeedbackStyle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FeedbackStyle",
+                        "printedName": "UIKit.UIImpactFeedbackGenerator.FeedbackStyle",
+                        "usr": "c:@E@UIImpactFeedbackStyle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC22feedbackGeneratorStyleSo016UIImpactFeedbackF0VSgvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC22feedbackGeneratorStyleSo016UIImpactFeedbackF0VSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImpactFeedbackGenerator.FeedbackStyle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FeedbackStyle",
+                        "printedName": "UIKit.UIImpactFeedbackGenerator.FeedbackStyle",
+                        "usr": "c:@E@UIImpactFeedbackStyle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC22feedbackGeneratorStyleSo016UIImpactFeedbackF0VSgvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC22feedbackGeneratorStyleSo016UIImpactFeedbackF0VSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC22feedbackGeneratorStyleSo016UIImpactFeedbackF0VSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC22feedbackGeneratorStyleSo016UIImpactFeedbackF0VSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedMetadataObjectTypes",
+            "printedName": "supportedMetadataObjectTypes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFoundation.AVMetadataObject.ObjectType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectType",
+                    "printedName": "AVFoundation.AVMetadataObject.ObjectType",
+                    "usr": "c:@T@AVMetadataObjectType"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC28supportedMetadataObjectTypesSaySo010AVMetadataF4TypeaGvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC28supportedMetadataObjectTypesSaySo010AVMetadataF4TypeaGvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AVFoundation.AVMetadataObject.ObjectType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectType",
+                        "printedName": "AVFoundation.AVMetadataObject.ObjectType",
+                        "usr": "c:@T@AVMetadataObjectType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC28supportedMetadataObjectTypesSaySo010AVMetadataF4TypeaGvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC28supportedMetadataObjectTypesSaySo010AVMetadataF4TypeaGvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AVFoundation.AVMetadataObject.ObjectType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectType",
+                        "printedName": "AVFoundation.AVMetadataObject.ObjectType",
+                        "usr": "c:@T@AVMetadataObjectType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC28supportedMetadataObjectTypesSaySo010AVMetadataF4TypeaGvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC28supportedMetadataObjectTypesSaySo010AVMetadataF4TypeaGvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC28supportedMetadataObjectTypesSaySo010AVMetadataF4TypeaGvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC28supportedMetadataObjectTypesSaySo010AVMetadataF4TypeaGvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showTorchButton",
+            "printedName": "showTorchButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC15showTorchButtonSbvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC15showTorchButtonSbvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15showTorchButtonSbvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15showTorchButtonSbvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15showTorchButtonSbvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15showTorchButtonSbvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15showTorchButtonSbvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15showTorchButtonSbvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showCloseButton",
+            "printedName": "showCloseButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC15showCloseButtonSbvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC15showCloseButtonSbvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15showCloseButtonSbvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15showCloseButtonSbvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15showCloseButtonSbvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15showCloseButtonSbvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15showCloseButtonSbvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15showCloseButtonSbvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionText",
+            "printedName": "instructionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QRScanner0A14ViewControllerC15instructionTextSSSgvp",
+            "mangledName": "$s9QRScanner0A14ViewControllerC15instructionTextSSSgvp",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15instructionTextSSSgvg",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15instructionTextSSSgvg",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15instructionTextSSSgvs",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15instructionTextSSSgvs",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QRScanner0A14ViewControllerC15instructionTextSSSgvM",
+                "mangledName": "$s9QRScanner0A14ViewControllerC15instructionTextSSSgvM",
+                "moduleName": "QRScanner",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)viewDidLoad",
+            "mangledName": "$s9QRScanner0A14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)viewWillAppear:",
+            "mangledName": "$s9QRScanner0A14ViewControllerC14viewWillAppearyySbF",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)viewWillDisappear:",
+            "mangledName": "$s9QRScanner0A14ViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s9QRScanner0A14ViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startScanning",
+            "printedName": "startScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A14ViewControllerC13startScanningyyF",
+            "mangledName": "$s9QRScanner0A14ViewControllerC13startScanningyyF",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScanning",
+            "printedName": "stopScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QRScanner0A14ViewControllerC12stopScanningyyF",
+            "mangledName": "$s9QRScanner0A14ViewControllerC12stopScanningyyF",
+            "moduleName": "QRScanner",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillTransition",
+            "printedName": "viewWillTransition(to:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerTransitionCoordinator",
+                "printedName": "any UIKit.UIViewControllerTransitionCoordinator",
+                "usr": "c:objc(pl)UIViewControllerTransitionCoordinator"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)viewWillTransitionToSize:withTransitionCoordinator:",
+            "mangledName": "$s9QRScanner0A14ViewControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIViewcF11Coordinator_ptF",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "objc_name": "viewWillTransitionToSize:withTransitionCoordinator:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QRScannerViewController",
+                "printedName": "QRScanner.QRScannerViewController",
+                "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s9QRScanner0A14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QRScanner.QRScannerViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QRScannerViewController",
+                    "printedName": "QRScanner.QRScannerViewController",
+                    "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController(im)initWithCoder:",
+            "mangledName": "$s9QRScanner0A14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "QRScanner",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "metadataOutput",
+            "printedName": "metadataOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureMetadataOutput",
+                "printedName": "AVFoundation.AVCaptureMetadataOutput",
+                "usr": "c:objc(cs)AVCaptureMetadataOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFoundation.AVMetadataObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVMetadataObject",
+                    "printedName": "AVFoundation.AVMetadataObject",
+                    "usr": "c:objc(cs)AVMetadataObject"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@QRScanner@objc(cs)QRScannerViewController(im)captureOutput:didOutputMetadataObjects:fromConnection:",
+            "mangledName": "$s9QRScanner0A14ViewControllerC14metadataOutput_03didE04fromySo017AVCaptureMetadataE0C_SaySo16AVMetadataObjectCGSo0H10ConnectionCtF",
+            "moduleName": "QRScanner",
+            "objc_name": "captureOutput:didOutputMetadataObjects:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QRScanner@objc(cs)QRScannerViewController",
+        "mangledName": "$s9QRScanner0A14ViewControllerC",
+        "moduleName": "QRScanner",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 3,
+      "value": "260"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 3,
+      "value": "260"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 770,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 941,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1343,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2925,
+      "length": 3,
+      "value": "260"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2938,
+      "length": 3,
+      "value": "260"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3432,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3635,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4058,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4614,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4823,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sayan\/Desktop\/QRScanner\/QRScanner\/QRScannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5063,
+      "length": 40,
+      "value": "\"Align QR code within the frame to scan\""
+    }
+  ]
+}
